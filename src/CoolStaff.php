@@ -6,7 +6,7 @@ namespace Bravik\MyPackage;
 
 class CoolStaff
 {
-    public static function sayHi(string $name, $lastName = null): string
+    public static function sayHi(string $name, $lastName = null, $someFlag = null): string
     {
         if ($lastName) {
             return "Hi, $name $lastName!";
