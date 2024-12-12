@@ -6,12 +6,8 @@ namespace Bravik\MyPackage;
 
 class CoolStaff
 {
-    public static function sayHi(string $name, $lastName = null, $someFlag = null): string
+    public static function sayHi(string $name, $lastName): string
     {
-        if ($lastName) {
-            return "Hi, $name $lastName!";
-        }
-
-        return "Hi, $name!";
+        return "Hi, $name $lastName!";
     }
 }
