@@ -1,6 +1,6 @@
 {
     "name": "bravik/my-package",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Laravel lesson package",
     "type": "library",
     "autoload": {
@@ -14,5 +14,15 @@
             "email": "naumenko_subscr@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "^11.35"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bravik\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
+    }
 }
