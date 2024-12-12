@@ -1,6 +1,6 @@
 {
     "name": "bravik/my-package",
-    "version": "1",
+    "version": "0.0.1",
     "description": "Laravel lesson package",
     "type": "library",
     "autoload": {
